@@ -1,5 +1,0 @@
-###
-# Site variables
-###
-production: <%= production %>
-destination: ./_public
