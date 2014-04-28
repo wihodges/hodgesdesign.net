@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Hodges Design</title>
+	<meta name="description" content="Hodges Design is a husband and wife design duo based out of Austin, TX"> 
+	<meta name="author" content="Hodges Design">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+	<link rel="shortcut icon" href="http://hodgesdesign.net/favicon.ico">
+	<link rel="apple-touch-icon" href="http://hodgesdesign.net/apple-touch-icon.png">
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+	
+<body id="full-body">
+	<header>
+		<a href="http://www.hodgesdesign.net" id="logo" title="Hodges Design">Hodges Design</a>
+	</header>
+	<section>
+		<h2>A do-it-all design Duo based out of Austin TX.</h2>
+		<p>Short description of what and how we do what we like to do for who we like and do.</p>
+	</section>
+
+	<div id="instafeed"></div>
+
+	<script src="js/instafeed.js"></script>
+	<script type="text/javascript">
+	    var feed = new Instafeed({
+			get: 'user',
+			userId: 1073456701,
+		    accessToken: '1073456701.841bdb8.4974ede21d644efe81d4e3cd7745f323',
+			link: 'true',
+			clientId: '841bdb80957f482cbac20d259faa7cac',
+			limit: '60'
+	    });
+	    feed.run();
+		
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', '']);
+		  _gaq.push(['_trackPageview']);
+
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+	</script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+//=======================
+//  Fonts
+//=======================
+
+$font-fallback: Helvetica Neue, Myriad Pro, Arial, sans-serif;
+
+
+body{
+  font: normal 18px/26px $font-fallback;
+  color: #444;
+}
+
+
+
+.logo {
+	font-size: 45px;
+	border: 2px solid #444;
+	display:block;
+	text-align:center;
+	padding: 30px 5px;
+	margin: 35px auto;
+	position: relative;
+	font-weight: 100;
+	max-width: 420px;
+	color: #444;
+
+}
+
+
+.CTA {
+	text-align: center;
+	margin: 20px auto;
+	display: inline-block;
+	text-decoration: none;
+	border: 2px solid red;
+	padding: 0.6em 1.5em;
+	width: 160px;
+
+}
+
+h1, h2, h3 {
+	text-align: center;
+}
+
